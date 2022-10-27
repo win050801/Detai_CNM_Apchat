@@ -1,0 +1,46 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+.conversation:hover {
+  background-color: rgb(245, 243, 243);
+}
+.mess{
+  display: flex;
+  flex-direction: column;
+ 
+  padding: 0px;
+  margin: 0px;
+}
+.status{
+  font-size: 12px;
+}
+.converMess{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.conversationName {
+  margin-left: 10px;
+  font-weight: 600;
+  
+  padding: 0px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .conversationName {
+    display: none;
+  }
+}

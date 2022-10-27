@@ -1,0 +1,80 @@
+.FormContainerR {height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=1060&t=st=1666767222~exp=1666767822~hmac=dc4fe03e838e93d13d6fa5f13aa62d816a3eabc01cfdada278e93ee8c6c14b73");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  background-size: cover;
+  
+
+
+}
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;}
+    .brand img {
+      height: 5rem;
+    }
+    .brand h1 {
+      color: white;
+      text-transform: uppercase;
+    }
+  
+
+  .formregis {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #00000076;
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+    padding-right: 7rem;
+  }
+  .inputregis {
+    background-color: transparent;
+    padding: 1rem;
+    border: 0.1rem solid #4e0eff;
+    border-radius: 0.4rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    
+  }
+  .inputregis:focus {
+    border: 0.1rem solid #997af0;
+    outline: none;
+  }
+  .buttonregis {
+    background-color: #4e0eff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+    
+  }
+  .buttonregis:hover {
+    background-color: #4e0eff;
+  }
+  .spanregis {
+    color: white;
+    text-transform: uppercase;
+    
+  }
+  .spanregis a {
+    color: #4e0eff;
+    text-decoration: none;
+    font-weight: bold;
+  }

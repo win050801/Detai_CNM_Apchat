@@ -1,0 +1,383 @@
+.messenger {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-wrap: wrap;
+}
+.topbarchat{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  border-bottom: 1px groove gray ;
+  align-items: center;
+  
+}
+.iconcall{
+  width: 20px;
+  height: 25px;
+  padding: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  border-radius: 2px;
+}
+.iconcall:hover{
+  background-color: gray;
+}
+.chatMenu {
+  flex: 3.5;
+  border-right: 1px groove mistyrose;
+  background-color: var(--WA100);
+}
+.spacemenuleft{
+  width: 100%;
+  height: 349px;
+}
+.iconleftmenu{
+  width: 35px;
+  height: 35px;
+  filter: brightness(0) invert(1);
+   -webkit-filter: brightness(0) invert(1);
+   margin-top: 10px;
+
+}
+.divimg2{
+
+  text-align: center;
+  width: 100%;
+  height: 55px;
+
+  
+}
+.divimg2:hover{
+  background-color: gray;
+}
+.divimg2 ul {
+  background: #ffffff;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(186, 186, 186);
+}
+.divimg2 li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #282828;
+  padding: 0 1em;
+  
+  
+}
+
+.divimg2 a {
+  text-decoration: none;
+  color: #0C0A0A;
+  
+  display: block;
+  
+  
+}
+.divimg2 a:hover {
+  
+  color: blue;
+  
+}
+.divimg2 li:hover{
+  background-color: rgb(245, 243, 243);
+}
+.divimg2 ul li {
+  position: relative;
+ }
+
+.divimg2 .sub-menu{
+  position: absolute;
+  left: 54px;
+  top: 620px;
+  display: none;
+}
+.divimg2 li {
+  position: relative;
+}
+.divimg2:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+.divimg{
+
+  text-align: center;
+  width: 100%;
+  height: 55px;
+
+  
+}
+.divimg:hover{
+  background-color: gray;
+}
+.searchbar2 {
+  width: 70%;
+  height: 30px;
+
+  background-color: whitesmoke;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.iconuser{
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-left: 20px ;
+  border-radius: 2px;
+  
+}
+.iconsmile{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 2px;
+  
+}
+.icongroup{
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+ 
+  border-radius: 2px;
+  
+}
+.icongroup:hover{
+  background-color: gray;
+}
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.iconuser:hover{
+  background-color: gray;
+}
+.topbarImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.chatMenuInput {
+  width: 100%;
+  border: none;
+  height: 90%;
+  background-color: whitesmoke;
+}
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.chatBox {
+  flex: 10;
+  background-color: darkgray;
+ 
+}
+
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.chatBoxTop {
+  height: 75%;
+  overflow-y: hidden;
+  padding-right: 10px;
+  width: 100%;
+}
+.menuNhom{
+  display: flex;
+  margin-top: 0px;
+
+}
+.nhom{
+  margin: 10px;
+  margin-left: 30px;
+}
+.nhom :hover{
+  color: blue;
+  border-bottom: 1px;
+}
+.inputmess{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 90%;
+}
+.chatBoxBottom {
+ margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.chatMessageInput {
+  width: 90%;
+  height: 100%;
+  border: 0px;
+  border: none;
+}
+
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+.chatOnline{
+  flex: 0.5;
+  background-color: #1877f2;
+ }
+ .chatMenuWrapper{
+  display: flex;
+ }
+.chatMenuWrapper{
+  padding: 10px;
+  height: 100%;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0%;
+  flex-direction: column;
+  border-top: 0.1px groove rgb(253, 253, 253);
+}
+.conversation{
+ width: 100%;
+ height:40px;
+ align-items: center;
+ margin:0 auto;
+ text-align: center;
+}
+.chatMenuWrapper2{
+  margin-top: 7px;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  
+}
+.chatBoxWrapper{
+  padding: 10px;
+  height: 100%;
+}
+.chatOnlineWrapper {
+  padding-right: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.noConversationText {
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
+  color: rgb(224, 220, 220);
+  cursor: default;
+}
+
+.topbarLeft ul {
+  background: #ffffff;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  box-shadow: 2px 2px 2px 2px rgb(186, 186, 186);
+  border-radius: 10px;
+}
+.topbarLeft li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #282828;
+  padding: 0 1em;
+  
+  
+}
+
+.topbarLeft a {
+  text-decoration: none;
+  color: #0C0A0A;
+  
+  display: block;
+  
+  
+}
+.topbarLeft a:hover {
+  
+  color: blue;
+  
+}
+.topbarLeft li:hover{
+  background-color: rgb(245, 243, 243);
+}
+.topbarLeft ul li {
+  position: relative;
+ }
+.sub-menu {
+  display: none;
+  position: absolute;
+}
+.topbarLeft .sub-menu{
+  position: absolute;
+  left: 54px;
+  top: 20px;
+  display: none;
+}
+.topbarLeft li {
+  position: relative;
+}
+.topbarLeft:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu cấp 3==*/
+.sub-menu > ul {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .chatMenu {
+    
+    flex: 1;
+  }
+
+  .chatMenuInput {
+    display: none;
+  }
+
+  .chatBox{
+    
+    flex: 10;
+  }
+
+  .chatOnline{
+    flex: 1px;
+  }
+}
